@@ -12,3 +12,4 @@ run/
 *.un~
 /app/public/pages
 /config/manifest.json
+app/public
