@@ -10,3 +10,5 @@ run/
 .DS_Store
 *.sw*
 *.un~
+/app/public/pages
+/config/manifest.json
