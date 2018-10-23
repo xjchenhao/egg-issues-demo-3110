@@ -1,0 +1,8 @@
+{
+    // eslint规则文件
+    "eslint.options": {
+        "configFile": "./.eslintrc",
+    },
+
+    "eslint.autoFixOnSave": true,
+}
