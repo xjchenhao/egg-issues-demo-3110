@@ -1,0 +1,1 @@
+除了`/app/public/pages`中的用来做客户端的页面，`/app/public/`中其它的资源都是正常的业务资源
