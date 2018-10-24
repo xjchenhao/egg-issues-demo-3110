@@ -1,11 +1,9 @@
 
 // ref: https://umijs.org/config/
 export default {
-  hash: true,
-  outputPath: '../public',
+  outputPath: '../public/pages',
   "manifest": {
-    "fileName": "../../config/manifest.json",
-    publicPath: '',
+    "fileName": "../../../config/manifest.json"
   },
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
