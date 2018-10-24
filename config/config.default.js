@@ -8,12 +8,6 @@ module.exports = appInfo => {
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1540259075181_366';
 
-  // 设置静态资源的路径
-  config.static = {
-    prefix: '/',
-    dir: [ path.join(appInfo.baseDir, 'app/public') ],
-  };
-
   // add your config here
   config.middleware = [];
 
@@ -28,6 +22,7 @@ module.exports = appInfo => {
 
   // 客户端资源配置
   config.assets = {
+    publicPath: '/public',
     devServer: {
       debug: false,
       command: 'umi dev',
