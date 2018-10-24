@@ -28,7 +28,6 @@ module.exports = appInfo => {
 
   // 客户端资源配置
   config.assets = {
-    publicPath: '/pages',
     devServer: {
       debug: false,
       command: 'umi dev',
